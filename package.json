@@ -14,8 +14,7 @@
     "lint": "eslint . && prettier --check .",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "gen:api": "openapi-typescript openapi/openapi.yaml -o lib/api-schema.d.ts --default-non-nullable false",
-    "api:refresh": "node scripts/refresh-openapi.mjs"
+    "gen:api": "openapi-typescript openapi/openapi.yaml -o lib/api-schema.d.ts --default-non-nullable false"
   },
   "dependencies": {
     "next": "^16.4.5",
