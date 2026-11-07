@@ -29,7 +29,7 @@ The API must allow this app's origin: start it with `CORS_ORIGINS` set to the ap
 
 ## API types
 
-Types come from the API's OpenAPI spec, committed in this package: `openapi/openapi.yaml` and the generated `lib/api-schema.d.ts`. To update them after the API changed, run `pnpm api:refresh` (monorepo only; it copies the spec and regenerates), or copy the new `openapi.yaml` into `openapi/` and run `pnpm gen:api`.
+Types come from the API's OpenAPI spec, committed in this package: `openapi/openapi.yaml` and the generated `lib/api-schema.d.ts`. To update them after the API changed, copy the new [`openapi.yaml` from the api repository](https://github.com/Ledger-Tax/ledgertax-api/blob/main/openapi.yaml) into `openapi/` and run `pnpm gen:api`, then commit both files.
 
 ## Check
 
