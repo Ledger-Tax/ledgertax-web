@@ -1,0 +1,5 @@
+.next
+coverage
+pnpm-lock.yaml
+next-env.d.ts
+lib/api-schema.d.ts
